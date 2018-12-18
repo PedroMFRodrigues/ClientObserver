@@ -16,7 +16,7 @@ public class CheckUpdates extends Observable implements Runnable {
 
     public CheckUpdates(String directory) {
         localDirToWatch = directory;
-        messageToSend = new Messages("DIR UPDATED");
+        messageToSend = new Messages("DIRUPDATED");
     }
 
     public void SetMessage(String subject, String message) {
